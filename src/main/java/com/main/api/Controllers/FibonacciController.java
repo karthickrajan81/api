@@ -1,10 +1,10 @@
-package com.main.api.Controllers;
+package com.main.api.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collection;
 
-import com.main.api.Services.FibonacciService;
+import com.main.api.services.FibonacciService;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,10 +1,10 @@
-package com.main.api.Controllers;
-
-import com.main.api.ExceptionHandler.BadRequestException;
-import com.main.api.ExceptionHandler.ErrorDetails;
-import com.main.api.ExceptionHandler.ResourceNotFoundException;
+package com.main.api.controllers;
 
 import java.util.Date;
+
+import com.main.api.exceptionhandler.BadRequestException;
+import com.main.api.exceptionhandler.ErrorDetails;
+import com.main.api.exceptionhandler.ResourceNotFoundException;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

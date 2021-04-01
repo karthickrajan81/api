@@ -1,9 +1,9 @@
-package com.main.api.Services;
+package com.main.api.services;
 
 import java.util.Collection;
 import java.util.HashMap;
 
-import com.main.api.ExceptionHandler.BadRequestException;
+import com.main.api.exceptionhandler.BadRequestException;
 
 import java.lang.Exception;
 
