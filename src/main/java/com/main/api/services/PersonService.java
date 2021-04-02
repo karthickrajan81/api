@@ -26,16 +26,32 @@ public class PersonService {
         return personRepo.getAll();
     }
 
-    public void addPerson(Person person) {
-        personRepo.create(person);
+    public boolean addPerson(Person person) {
+        try {
+            personRepo.create(person);
+            return true;
+        } catch (Exception ex) {
+
+            return false;
+        }
     }
 
-    public void updatePerson(Person person) {
-        personRepo.update(person);
+    public boolean updatePerson(Person person) {
+        try {
+            personRepo.update(person);
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
     }
 
-    public void deletePerson(Long personId) {
-        personRepo.delete(personId);
+    public boolean deletePerson(Long personId) {
+        try {
+            personRepo.delete(personId);
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
     }
 
 }
