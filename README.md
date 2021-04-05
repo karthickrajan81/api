@@ -49,7 +49,7 @@ curl --location --request PUT 'http://localhost:8080/person/update' \
 --header 'Content-Type: application/json' \
 --data-raw '    {
         "id":"4",
-        "firstName": "Stephennnnnnnnnnn",
+        "firstName": "Stephen",
         "lastName" : "Hawking"
     }'
 ## [DeletePerson] 
