@@ -1,22 +1,20 @@
 ### com.main.api
-This Api is build using Java and Spring boot to give introduction to Micoroservices with simple DAO and DTO implementations
+This Api is built using Java and Spring boot to give introduction to Micoroservices with simple DAO and DTO implementations
 
 ### Dependencies
 ## Frameworks:org.springframework.boot
+## Data Repository: org.springframework.boot\spring-boot-starter-data-jpa
 ## Persistence Layer: org.hsqldb
 ## Utilities:com.google.code.gson
+## Build and Package:maven.apache.org
+## Unit test: Junit
 
-### Compile
-maven.apache.org
 ## [Compile]
 mvn compile -f ".\api\pom.xml"
 
-### Package
-maven.apache.org
 ## [Packagae] 
 mvn package -f ".\api\pom.xml"
 
-### Unit Test
 ## [RunTest] 
 mvn test -f ".\api\pom.xml"
 
