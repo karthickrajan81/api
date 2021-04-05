@@ -1,5 +1,5 @@
 ### com.main.api
-This Api is build using Java and Spring boot.
+This Api is build using Java and Spring boot to give introduction to Micoroservices with simple DAO and DTO implementations
 
 ### Dependencies
 ## Frameworks:org.springframework.boot
@@ -11,18 +11,16 @@ maven.apache.org
 ## [Compile]
 mvn compile -f ".\api\pom.xml"
 
-
 ### Package
 maven.apache.org
 ## [Packagae] 
 mvn package -f ".\api\pom.xml"
 
 ### Unit Test
-Junit
 ## [RunTest] 
 mvn test -f ".\api\pom.xml"
 
-### API URL
+### API URLs
 ## [Welcome]
 curl --location --request GET 'http://localhost:8080/'
 
