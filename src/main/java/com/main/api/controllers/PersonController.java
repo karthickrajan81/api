@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 @RequestMapping("/person")
 public class PersonController {
 
-    private static final Logger logger = LoggerFactory.getLogger(FibonacciController.class);
+    private static final Logger logger = LoggerFactory.getLogger(PersonController.class);
 
     @Autowired
     private PersonService personService;

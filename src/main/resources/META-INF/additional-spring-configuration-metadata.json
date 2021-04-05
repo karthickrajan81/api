@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "jsonplaceholder.url",
+  "type": "java.lang.String",
+  "description": "Url to access posts from jsonplaceholder.typicode.com'"
+}]}
