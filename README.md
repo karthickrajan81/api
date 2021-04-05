@@ -2,7 +2,7 @@
 This Api is built using Java and Spring boot to give introduction to Micoroservices with simple DAO and DTO implementations
 
 ### Dependencies
-## Frameworks:org.springframework.boot
+## Framework:org.springframework.boot
 ## Data Repository: org.springframework.boot\spring-boot-starter-data-jpa
 ## Persistence Layer: org.hsqldb
 ## Utilities:com.google.code.gson
