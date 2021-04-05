@@ -21,7 +21,7 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
 @Service
-public class PostService {
+public class PostService implements IPostService {
 
     @Value("${jsonplaceholder.url}")
     private String jsonplaceholderUrl;

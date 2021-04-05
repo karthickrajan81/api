@@ -7,7 +7,7 @@ import com.main.api.exceptionhandler.BadRequestException;
 
 import java.lang.Exception;
 
-public class FibonacciService {
+public class FibonacciService implements IFibonacciService {
     private HashMap<Integer, Long> _cache = new HashMap<Integer, Long>();
     private int _inputNumber;
 
