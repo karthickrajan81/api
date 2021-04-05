@@ -2,9 +2,9 @@
 This Api is build using Java and Spring boot.
 
 ### Dependencies
-Frameworks:org.springframework.boot
-Persistence Layer: org.hsqldb
-Utilities:com.google.code.gson
+## Frameworks:org.springframework.boot
+## Persistence Layer: org.hsqldb
+## Utilities:com.google.code.gson
 
 ### Compile
 maven.apache.org
